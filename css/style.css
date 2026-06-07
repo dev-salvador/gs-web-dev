@@ -103,7 +103,7 @@ footer p {
 }
 
 .cta p {
-    color: rgb(149, 172, 158);
+    color: rgb(213, 223, 217);
 }
 
 .menu-hero-list {
@@ -150,12 +150,12 @@ footer p {
 
 .card h3 {
     font-family: 'Baskervville', serif;
-    color: var(--cor-principal);
+    color: rgb(20, 47, 29);
     font-weight: 500;
 }
 
 .card p {
-    color: var(--cor-texto);
+    color: rgb(172, 234, 196);
     max-width: 300px;
 }
 
@@ -199,12 +199,12 @@ footer p {
 
 .tecnologia-card h3 {
     font-family: 'Baskervville', serif;
-    color: var(--cor-principal);
+    color: rgb(20, 47, 29);
     font-weight: 500;
 }
 
 .tecnologia-card p {
-    color: var(--cor-texto);
+    color: rgb(172, 234, 196);
     max-width: 300px;
 }
 
@@ -257,12 +257,12 @@ footer p {
 
 .objetivo-card h3 {
     font-family: 'Baskervville', serif;
-    color: var(--cor-principal);
+    color: rgb(20, 47, 29);
     font-weight: 500;
 }
 
 .objetivo-card p {
-    color: var(--cor-texto);
+    color: rgb(172, 234, 196);
 }
 
 .objetivo-card:hover {
@@ -307,13 +307,13 @@ footer p {
 
 .publico-alvo-card h3 {
     font-family: 'Baskervville', serif;
-    color: var(--cor-principal);
+    color: rgb(20, 47, 29);
     font-weight: 500;
     margin-bottom: var(--spacing-md);
 }
 
 .publico-alvo-card p {
-    color: var(--cor-texto);
+    color: rgb(172, 234, 196);
     max-width: 250px;
     margin-top: var(--spacing-md);
 }
@@ -343,13 +343,13 @@ footer p {
 
 .beneficios-card h3 {
     font-family: 'Baskervville', serif;
-    color: var(--cor-principal);
+    color: rgb(20, 47, 29);
     font-weight: 500;
     margin-bottom: var(--spacing-md);
 }
 
 .beneficios-card p {
-    color: var(--cor-texto);
+    color: rgb(172, 234, 196);
     max-width: 300px;
     margin-top: var(--spacing-md);
     text-align: center;
@@ -391,7 +391,7 @@ footer p {
     justify-content: center;
     align-items: center;
     background:
-        linear-gradient(var(--bg-claro),var(--bg-escuro)) padding-box,
+        linear-gradient(rgb(90, 142, 107), rgb(19, 51, 39)) padding-box,
         linear-gradient(to right, #0a0112, #61946b) border-box;
     box-shadow: 0 0 20px rgba(28, 87, 41, 0.3);
 }
@@ -421,13 +421,13 @@ footer p {
 
 .aplicacao-card h3 {
     font-family: 'Baskervville', serif;
-    color: var(--cor-principal);
+    color: rgb(20, 47, 29);
     font-weight: 500;
     margin-bottom: var(--spacing-md);
 }
 
 .aplicacao-card p {
-    color: var(--cor-texto);
+    color: rgb(172, 234, 196);
     max-width: 300px;
     margin-top: var(--spacing-md);
 }
