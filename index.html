@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SATSYNC</title>
+    <!--Icone de uma plantinha e das setas do site Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <!--Link do css-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--Começo do hero da página-->
+    <section class="hero">
+        <header class="header-hero">
+            <h1>SATSYNC</h1>
+            <nav class="menu-hero">
+                <ul class="menu-hero-list">
+                    <li><a href="#problemas">Problemas</a></li>
+                    <li><a href="#tecnologia">Tecnologias</a></li>
+                    <li><a href="#objetivos">Objetivos</a></li>
+                    <li><a href="#publico-alvo">Público</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#aplicacao-dia">Aplicação</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li class="tema-menu"><a href="#" id="btnTema">Temas ▼</a>
+                        <div class="tema-dropdown" id="temaDropdown">
+                            <button onclick="trocarTema('verde')">Verde</button>
+                            <button onclick="trocarTema('azul')">Azul</button>
+                            <button onclick="trocarTema('escuro')">Escuro</button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="cta">
+            <h1>Sobre o projeto <i class="fa-solid fa-plant-wilt plant"></i></h1>
+            <p>Um sistema inteligente para otimizar o uso de energia e recursos, ativando determinado sistema apenas quando for necessário</p>
+    </section>
+    <!--começo das seções da página-->
+    <section id="problemas" class="Problemas-box">
+        <h1>Problemas</h1>
+        <div class="problemas-informação">
+            <img src="./Imagens/Drone-mapping-dreamstime_s_101327342.jpg"
+                alt="Imagem de um sensor remoto monitorando um campo rual">
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3> Problemas em sensores remotos e dispositivos IOT</h3>
+                    <p>Operam em lugares com pouca infraestrutura de energia e comunicação como áreas rurais</p>
+                </div>
+
+                <div class="card">
+                    <h3>Consumo energetico alto</h3>
+                    <p>Aumento exagerado do consumo de energia, além da falta de sincronização eficiente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tecnologia" class="Tecnologia-box">
+        <h1>Tecnologias Usadas</h1>
+        <div class="tecnologias-informação">
+            <img src="./Imagens/Tecnologia-no-campo-Inovacao-que-transforma-a-agricultura-moderna-r717stv4dakcc87gw93jmtj47pir6woo1lvh317c2s.webp"
+                alt="Imagem de uma plantação ultilizando tecnologias avançadas">
+
+            <div class="tecnologia-cards">
+                <div class="tecnologia-card">
+                    <h3>Sensor</h3>
+                    <P>Sensor que verifica e coleta apenas dados neccesários para o funcionamento</P>
+                </div>
+
+                <div class="tecnologia-card">
+                    <h3>Monitoramento</h3>
+                    <P>Tela de monitoramento em tempo real que mostra o resultado</P>
+                </div>
+
+                <div class="tecnologia-card">
+                    <h3>Componentes usados na montagem</h3>
+                    <P>Arduino Uno, Tela lcd 16x2, Sensor LDR, LED's de status, Buzzer e Pushbutton</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="objetivos" class="Objetivos-box">
+        <h1>Objetivos do projeto</h1>
+        <div class="Objetivos-cards">
+
+            <div class="objetivo-card">
+                <h3>Otimizar o uso de energia</h3>
+                <p>Otimiza o uso de energia ativando determinados sistemas apenas quando necessário reduzindo
+                    disperdicio</p>
+            </div>
+
+            <div class="objetivo-card">
+                <h3>Otimizar a coleta de dados</h3>
+                <p>Promover uma troca de dados mais precisa, organizada e confiável entre diferentes sistemas</p>
+            </div>
+
+            <div class="objetivo-card">
+                <h3>Facilitar</h3>
+                <p>Facilitar a implementação de tecnologias de baixo consumo em projetos acessíveis e escalaveis</p>
+            </div>
+
+            <div class="objetivo-card">
+                <h3>Adaptação</h3>
+                <p>Demonstrar como tecnologias inspiradas na industria espacial podem ser adaptadas para resolver
+                    problemas reais na terra</p>
+            </div>
+        </div>
+    </section>
+    <section id="publico-alvo" class="Publico-alvo-box">
+        <h1>Público Alvo</h1>
+        <div class="publico-informação">
+            <img src="./Imagens/IA-no-monitoramento-ambiental (1).jpg" alt="Imagem de uma Inteligência artificial fazendo monitoramento ambiental">
+
+            <div class="publico-alvo-cards">
+                
+                
+                <div class="publico-alvo-card">
+                    <h3><i class="fa-solid fa-caret-right"></i>Para projetos que ultilizam sensores remotos<i class="fa-solid fa-caret-left"></i></h3>
+                    <p>Agricultura inteligente</p>
+                    <p>Monitoramento Ambiental</p>
+                    <p>Estações meterológicas</p>
+                    <p>Sistema de coleta de dados em áreas remotas</p>
+                    <p>Projetos sustentáveis de baixo consumo energético</p>
+                </div>
+            </div>
+        </div>
+</section>
+    <section id="beneficios" class="Beneficios-box">
+            <h1>Benefícios</h1>
+            <div class="beneficios-cards">
+
+                <div class="beneficios-card">
+                    <h3>Eficiência energetica</h3>
+                    <img src="./Imagens/ImagemDeUmRaio.png" alt="Icone de um raio representando o consumo de energia">
+                    <p>Evita desperdício energético reduzindo o consumo de energia dos sensores e dispositivos</p>
+                    <p>O sistema é apenas ativado quando nessesário mantendo uma maior autonomia nos sistemas</p>
+                    </div>
+
+                    <div class="beneficios-card">
+                     <h3>Sustentabilidade</h3>
+                     <img src="./Imagens/ImagemDeUmaPlanta.png" alt="Icone de uma planta representando a sustentabilidade">
+                     <p>O SATSYNC também promove o uso sustentável de energia, otimo em projetos de baixo custo</p>
+                     <p>Reduz custos de troca de bateria, deslocamento técnico e monitoramento manual</p>
+                    </div>
+
+                    <div class="beneficios-card">
+                     <h3>Inspirado em tecnologias espaciais</h3>
+                     <img src="./Imagens/ImagemDeUmSatelite.png" alt="Icone de um satélite representando as tecnologias espaciais">
+                     <p>O projeto é inspirado em sistemas espaciais e satélites ultilizando a sincronização inteligete</p>
+                     <p>Abrange a ideia de que tecnologias espaciais são benéficas e podem ser usadas de maneira inteligente na terra</p>
+                    </div>
+            </div>
+        </section>
+        <section id="aplicacao-dia" class="Aplicacao-box">
+                <h1>Aplicação</h1>
+                <div class="aplicacao-informação">
+                    <img src="./Imagens/Veracel-Monitoramento-Climatico-Site.webp" alt="Imagem de um sistema de monitoramento climático localizado no sul da Bahia">
+
+                    <div class="aplicacao-cards">
+
+                        <div class="aplicacao-card">
+                            <h3>Aplicações</h3>
+                            <p>O sistema atua como uma central de sincronização responsável por ativar sensores apenas em horários programados</p>
+                            <p>Entre suas aplicações temos: Monitoramento climático, Agricultura de precisão, Redes IOT de baixa energia</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="slideshow-box">
+                <h1>Galeria SATSYNC</h1>
+                <img id="slide" src="./Imagens/Drone-mapping-dreamstime_s_101327342.jpg" alt="">
+            </section>
+            <!--Fim das sessões da pagína-->
+            <!--rodapé com o nome dos integrantes-->
+            <footer class="footer">
+                <p>Gabriela: 569663, João: RM569412, Lucas S: RM568843, Milenna: RM570604</p>
+            </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/tema.js"></script>
+</body>
+</html>

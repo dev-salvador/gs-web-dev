@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - SATSYNC</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="page-header">
+            <div class="header-hero">
+                <h1>SATSYNC</h1>
+                <nav class="menu-hero">
+                    <ul class="menu-hero-list">
+                        <li><a href="index.html#problemas">Problemas</a></li>
+                        <li><a href="index.html#tecnologia">Tecnologias</a></li>
+                        <li><a href="index.html#objetivos">Objetivos</a></li>
+                        <li><a href="index.html#publico-alvo">Público</a></li>
+                        <li><a href="index.html#beneficios">Benefícios</a></li>
+                        <li><a href="index.html#aplicacao-dia">Aplicação</a></li>
+                        <li><a href="quiz.html">Quiz</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li class="tema-menu"><a href="#" id="btnTema">Temas ▼</a>
+                        <div class="tema-dropdown" id="temaDropdown">
+                            <button onclick="trocarTema('verde')">Verde</button>
+                            <button onclick="trocarTema('azul')">Azul</button>
+                            <button onclick="trocarTema('escuro')">Escuro</button>
+                        </div>
+                    </li>
+                    </ul>
+                </nav>
+        </div>
+    </header>  
+
+    <section class="contato-box">
+        <div class="contato-container">
+            <h1>Contato</h1>
+            <form id="formContato" class="contato-form">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem"></textarea>
+                <button type="submit">Enviar Feedback</button>
+            </form>
+            <div class="feedbacks-box">
+                <h2>Feedbacks dos Usuários</h2>
+                <div id="feedbacks"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/contato.js"></script>
+    <script src="./js/tema.js"></script>
+</body>
+</html>
